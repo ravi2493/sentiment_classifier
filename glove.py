@@ -1,4 +1,5 @@
 import numpy as np
+
 class word_embedings(object):
     dimension = 0
     def __init__(self,path,dimension=300,debug=False):
