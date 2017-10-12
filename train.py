@@ -4,7 +4,7 @@ from model import model
 from glove import word_embedings
 from preprocessor.preprocess import load_data
 import random
-
+print("started")
 def batch_iter(data, batch_size, epochs, Isshuffle=True):
     ## check inputs
     assert isinstance(batch_size,int)
