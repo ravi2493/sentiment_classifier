@@ -3,7 +3,7 @@ class word_embedings(object):
     dimension = 0
     def __init__(self,path=None,dimension=300,debug=False):
         if path ==None:
-            path = "C:/Users/pravi/PycharmProject/sentiment_classifier/data/glove_6B/glove_6B_300d.txt"
+            path = "data/glove_6B/glove_6B_300d.txt"
         f = open(path,'r',encoding='utf8')
         data = f.readlines()
         self.word2vec = {}
